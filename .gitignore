@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+storage/recordings/*
+storage/transcripts/*
+storage/reports/*
+storage/*.db
+!storage/**/.gitkeep
+
+# Private real meeting data
+/tests/data/sample_meeting.py
